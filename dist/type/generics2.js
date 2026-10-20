@@ -1,12 +1,12 @@
 "use strict";
 // function useState(initialValue) {
 //     let value = initialValue;
-Object.defineProperty(exports, "__esModule", { value: true });
 //     function setValue(newValue) {
 //         value = newValue;
 //     }
 //     return [value, setValue]
 // }
+Object.defineProperty(exports, "__esModule", { value: true });
 // const [counter, setCounter] = useState(0);
 // console.log(counter)
 // -----------------------------------
@@ -18,9 +18,9 @@ function useState(initialValue) {
     // return [value]
     return [value, setValue];
 }
-useState('');
+useState("");
 useState(0);
 useState(false);
-useState({ email: '', isLoggedIn: false });
+useState({ email: "", isLoggedIn: false });
 useState(null);
 //# sourceMappingURL=generics2.js.map

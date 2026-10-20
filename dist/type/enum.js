@@ -13,6 +13,7 @@ var Day;
 let offDay = Day.Sunday;
 console.log(Day.Monday);
 if (offDay === Day.Sunday || offDay === Day.Friday) {
+    console.log("Hello");
 }
 var Roles;
 (function (Roles) {
@@ -22,8 +23,16 @@ var Roles;
 })(Roles || (Roles = {}));
 console.log(Roles.Admin);
 const nandu = {
-    name: 'chandu',
-    role: Roles.Moderator
+    name: "chandu",
+    role: Roles.Moderator,
 };
 console.log(nandu);
+var Priority;
+(function (Priority) {
+    Priority[Priority["Low"] = 0] = "Low";
+    Priority[Priority["Moderate"] = 1] = "Moderate";
+    Priority[Priority["Medium"] = 2] = "Medium";
+    Priority[Priority["High"] = 3] = "High";
+    Priority[Priority["Urgent"] = 4] = "Urgent";
+})(Priority || (Priority = {}));
 //# sourceMappingURL=enum.js.map

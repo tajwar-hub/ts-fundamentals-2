@@ -1,40 +1,37 @@
 enum Day {
-    Monday, 
-    Tuesday,
-    Wednesday,
-    Thursday,
-    Friday,
-    Saturday,
-    Sunday
+  Monday,
+  Tuesday,
+  Wednesday,
+  Thursday,
+  Friday,
+  Saturday,
+  Sunday,
 }
 
-let offDay = Day.Sunday
+let offDay = Day.Sunday;
 console.log(Day.Monday);
 
-if(offDay === Day.Sunday || offDay === Day.Friday){
-
+if (offDay === Day.Sunday || offDay === Day.Friday) {
+    console.log("Hello");
 }
-
 
 enum Roles {
-    Admin = 'Admin',
-    Moderator = 'Moderator',
-    Guest = 'Guest'
+  Admin = "Admin",
+  Moderator = "Moderator",
+  Guest = "Guest",
 }
-
-console.log(Roles.Admin)
+console.log(Roles.Admin);
 
 const nandu = {
-    name: 'chandu',
-    role: Roles.Moderator
-}
-
-console.log(nandu)
+  name: "chandu",
+  role: Roles.Moderator,
+};
+console.log(nandu);
 
 enum Priority {
-    Low,
-    Moderate,
-    Medium,
-    High,
-    Urgent
+  Low,
+  Moderate,
+  Medium,
+  High,
+  Urgent,
 }

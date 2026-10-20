@@ -8,6 +8,11 @@ const bigBoos = {
 };
 const bDayGift = {
     name: "Teddy Bear",
-    price: 29.99
+    price: 29.99,
 };
+var APIStatus;
+(function (APIStatus) {
+    APIStatus["Loading"] = "Loading";
+    APIStatus["Pending"] = "Pending";
+})(APIStatus || (APIStatus = {}));
 //# sourceMappingURL=interface2.js.map

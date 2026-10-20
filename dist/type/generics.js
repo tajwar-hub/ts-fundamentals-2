@@ -7,19 +7,19 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const transactionResponse = {
     data: "Transaction successful",
-    status: 200
+    status: 200,
 };
 const transactionStatus = {
     data: false,
-    status: 200
+    status: 200,
 };
 const transactionAmount = {
     data: 215,
-    status: 401
+    status: 401,
 };
 function getLength(array) {
     return array.length;
 }
-getLength(['', '', '3']);
+getLength(["", "", "3"]);
 getLength([4, 6]);
 //# sourceMappingURL=generics.js.map

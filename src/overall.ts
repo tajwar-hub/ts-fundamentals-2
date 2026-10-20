@@ -2,7 +2,7 @@
  * 1. variable --> string, boolean, number
  * 2. array --> string[], number []
  * 3. function --> parameter type, return ( void, )
- * 4. object --> 
+ * 4. object -->
  * 5. union, null, unknown
  * --------------
  * 6. type alias
@@ -10,7 +10,4 @@
  * 8. generics
  * 9. assertion
  * 10. enum
- * 
- * 
- * 
-*/
+ **/

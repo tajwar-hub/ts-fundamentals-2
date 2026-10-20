@@ -1,31 +1,31 @@
 type userRole = "Admin" | "User" | "Moderator" | "Guest";
-type status = 'Pending'
+type status = "Pending";
 
 interface User {
-    name: string;
-    role: userRole;
-    email: string;
+  name: string;
+  role: userRole;
+  email: string;
 }
 
 interface Admin extends User {
-    permissions: string[];
+  permissions: string[];
 }
 
 interface Moderator extends User {
-    moderatedSections: string[];
+  moderatedSections: string[];
 }
 
 const bigBoos: Admin = {
-    name: "Big Boos",
-    role: "Admin",
-    email: "bigboos@example.com",
-    permissions: ["manage_users", "edit_content"],
-}
+  name: "Big Boos",
+  role: "Admin",
+  email: "bigboos@example.com",
+  permissions: ["manage_users", "edit_content"],
+};
 
 type book = {
-    title: string;
-    author: string;
-    publishedYear: number;
+  title: string;
+  author: string;
+  publishedYear: number;
 };
 
 // type book = {
@@ -33,19 +33,18 @@ type book = {
 // }
 
 interface Gift {
-    name: string;
+  name: string;
 }
 interface Gift {
-    price: number;
+  price: number;
 }
 
 const bDayGift: Gift = {
-    name: "Teddy Bear",
-    price: 29.99
-}
-    
+  name: "Teddy Bear",
+  price: 29.99,
+};
 
 enum APIStatus {
-    Loading = 'Loading',
-    Pending = 'Pending'
+  Loading = "Loading",
+  Pending = "Pending",
 }
